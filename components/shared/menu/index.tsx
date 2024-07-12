@@ -31,7 +31,7 @@ const Menu: React.FC<MenuProps> = ({ isScrolled }) => {
           <MenuItem key={item.id} value={item.value} />
         ))}
       </ul>
-      <ul className='flex items-center list-none'>
+      <ul className='flex items-center list-none mt-2'>
         {categoryTwo.map((item) => (
           <MenuItem key={item.id} value={item.value} />
         ))}
